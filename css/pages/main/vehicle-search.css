@@ -1,0 +1,41 @@
+.vehicle-search {
+    
+}
+.vehicle-search .container {
+}
+.vehicle-search .title {
+}
+.vehicle-search h2 {
+}
+.vehicle-search a {
+}
+.vehicle-search img {
+}
+.vehicle-search .vehicle-search__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.vehicle-search .vehicle-search__container .filtr-item .big{
+  
+}
+
+.vehicle-search .vehicle-search__container .filtr-item .small{
+    width: 90px;
+}
+
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+    width: 160px;
+    margin: 0 10px 10px ;
+}
+
+.vehicle-search .filtr-item {
+}
+.vehicle-search option {
+}
+.vehicle-search button {
+    width: 340px;
+}

@@ -1,8 +1,8 @@
 header .head-line {
     background: #F5F5F5;
     width: 100%;
-    border-top: 2px solid #C9CDCE;
-    border-bottom: 2px solid #C9CDCE;
+    border-top: 1px solid #C9CDCE;
+    border-bottom: 1px solid #C9CDCE;
     padding: 13px 0 10px;
 }
 
@@ -38,7 +38,7 @@ header p {
 }
 
 header .navbar {
-    border-bottom: 2px solid #C9CDCE;
+    border-bottom: 1px solid #C9CDCE;
 }
 
 header .navbar .container {
@@ -79,8 +79,8 @@ header .navbar__container .navbar__item:last-child,
 header .navbar__container .navbar__item a:hover {
     text-decoration: none;
     color: #cc0000;
-    border-bottom: 4px solid #cc0000;
-    margin-bottom: -4px;
+    border-top: 4px solid #cc0000;
+    margin-top: -4px;
 }
 
 header .navbar__container .navbar__item a {
