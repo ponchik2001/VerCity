@@ -7,14 +7,14 @@
     flex-wrap: wrap;
 }
 
-.vehicle-search .vehicle-search__container .filtr-item .small{
+.vehicle-search .vehicle-search__container .filtr-item .small {
     width: 90px;
 }
 
-select{
+select {
     -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none; 
+    appearance: none;
     width: 160px;
     font-family: Fira Sans;
     font-size: 14px;
@@ -30,16 +30,18 @@ select{
 }
 
 .vehicle-search .filtr-item {
-    margin: 0 10px 10px ;
+    margin: 0 10px 10px;
 }
 
 
-.vehicle-search .filtr-item:first-child,.vehicle-search .filtr-item:nth-child(8){
+.vehicle-search .filtr-item:first-child,
+.vehicle-search .filtr-item:nth-child(8) {
     margin: 0 10px 10px 0px;
 }
 
-.vehicle-search .filtr-item:nth-child(7),.vehicle-search .filtr-item:nth-child(13){
-     margin: 0 0 0 10px;
+.vehicle-search .filtr-item:nth-child(7),
+.vehicle-search .filtr-item:nth-child(13) {
+    margin: 0 0 0 10px;
 }
 
 .vehicle-search button {
@@ -54,8 +56,91 @@ select{
     height: 50px;
 }
 
-@media (max-width: 321px){
-    .vehicle-search button{
+@media (max-width: 321px) {
+    .vehicle-search button {
         width: 300px;
     }
+
+    /*
+
+    .mob-145 {
+        width: 145px;
+    }
+
+    .mob-110 {
+        width: 110px;
+    }
+
+    .mob-60 {
+        width: 60px;
+    }
+*/
+
+    .vehicle-search .vehicle-search__container {
+        justify-content: space-around;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    .vehicle-search .filtr-item {
+        margin: 0 5px 5px;
+
+    }
+
+    select {
+        width: 145px;
+    }
+
+    .vehicle-search .vehicle-search__container .filtr-item .small {
+        width: 145px;
+    }
+
+    .vehicle-search .filtr-item {
+        margin: 0 0 10px;
+    }
+
+
+    .vehicle-search .filtr-item:first-child,
+    .vehicle-search .filtr-item:nth-child(8) {
+        margin: 0 0 10px;
+    }
+
+    .vehicle-search .filtr-item:nth-child(7),
+    .vehicle-search .filtr-item:nth-child(13) {
+        margin: 0 0 10px;
+    }
+
+
+    /*
+    .vehicle-search .filtr-item:nth-child(2),
+    .vehicle-search .filtr-item:nth-child(4),
+    .vehicle-search .filtr-item:nth-child(7),
+    .vehicle-search .filtr-item:nth-child(10)
+    .vehicle-search .filtr-item:nth-child(11){
+        margin-right: 0px;
+    }
+    .vehicle-search .filtr-item:nth-child(3),
+    .vehicle-search .filtr-item:nth-child(5){
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .vehicle-search .filtr-item:nth-child(4),
+    .vehicle-search .filtr-item:nth-child(6),
+    .vehicle-search .filtr-item:nth-child(7){
+        margin-top: 5px;
+    }
+    
+    
+    
+    .vehicle-search .filtr-item:first-child,
+    .vehicle-search .filtr-item:nth-child(8) {
+        margin: 0 5px 5px 0px;
+    }
+
+    .vehicle-search .filtr-item:nth-child(13) {
+        margin: 0 0 0 5px;
+    }
+*/
 }
