@@ -34,3 +34,16 @@
 .car-for-sale span {
     color: #cc0000;
 }
+
+@media (max-width: 321px){
+    .car-for-sale .car-for-sale__column:nth-child(3),.car-for-sale .car-for-sale__column:nth-child(4),.car-for-sale .car-for-sale__column:nth-child(5),.car-for-sale .car-for-sale__column:nth-child(6){
+        display: none;
+    }
+    .mob-145{
+        width: 145px;
+    }
+    .mob-110{
+        width: 110px;
+    }
+    
+}

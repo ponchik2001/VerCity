@@ -108,3 +108,17 @@ header .navbar__container .navbar__item a {
     background: #900000;  
 }
 
+@media (max-width: 321px){
+    header .head-line .container{
+        flex-direction: column;
+    }
+    header .navbar__container .navbar__item,
+    .sell-my-car{
+        display: none;
+    }
+    header .navbar__container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
