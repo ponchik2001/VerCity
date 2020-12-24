@@ -1,0 +1,87 @@
+footer {}
+
+footer .container {}
+
+footer .copipaste-line p {
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+footer .copipaste-line p span {
+    font-weight: bold;
+}
+
+footer .copipaste-line {
+    background: #EEF0F5;
+    border-bottom: 1px solid #DDDFE1;
+}
+
+
+footer .copipaste-line .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 36px;
+    height: 91px;
+}
+
+footer .logo {}
+
+footer .logo a {}
+
+footer img {}
+
+footer p {}
+
+footer span {}
+
+footer .links-container {
+    background: #EEF0F5;
+}
+
+footer .links-container .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 0;
+}
+
+footer .column {}
+
+footer .column a {
+    display: block;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    line-height: 2.14;
+}
+
+footer .column a:hover{
+    color: #cc0000;
+}
+
+footer .under-line-container {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 292px;
+}
+
+footer .under-line-container a {
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 500;
+    color: #666666;
+    padding: 0 10px;
+    border-right: 2px solid #DDDFE1;
+}
+
+footer .under-line-container a:first-child{
+    padding: 0 10px 0 0;
+}
+
+footer .under-line-container a:last-child{
+    padding: 0 0 0 10px;
+    border-right: none;
+}
