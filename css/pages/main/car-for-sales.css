@@ -40,6 +40,8 @@
     .car-for-sale .car-for-sale__column:nth-child(3),.car-for-sale .car-for-sale__column:nth-child(4),.car-for-sale .car-for-sale__column:nth-child(5),.car-for-sale .car-for-sale__column:nth-child(6){
         display: none;
     }
-    
+    .car-for-sale .container{
+        padding: 0 5px;
+    }
     
 }
