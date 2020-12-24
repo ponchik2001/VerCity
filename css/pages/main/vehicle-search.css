@@ -29,13 +29,33 @@ select{
     -moz-appearance: none;
     appearance: none; 
     width: 160px;
-    margin: 0 10px 10px ;
+
+}
+
+select:first-child{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+    width: 160px;
+   
 }
 
 .vehicle-search .filtr-item {
+    margin: 0 10px 10px ;
 }
+
+
+.vehicle-search .filtr-item:first-child,.vehicle-search .filtr-item:nth-child(8){
+    margin: 0 10px 10px 0px;
+}
+
+.vehicle-search .filtr-item:nth-child(7),.vehicle-search .filtr-item:nth-child(13){
+     margin: 0 0 0 10px;
+}
+
 .vehicle-search option {
 }
 .vehicle-search button {
+    display: inline-block;
     width: 340px;
 }
