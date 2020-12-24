@@ -36,6 +36,20 @@
     color: #cc0000;
 }
 
+@media (max-width: 1017px){
+   .car-for-sale .car-for-sale__column:nth-child(5),.car-for-sale .car-for-sale__column:nth-child(6){
+        display: none;
+    } 
+}
+
+@media (max-width: 865px){
+ .car-for-sale .car-for-sale__column:nth-child(5),.car-for-sale .car-for-sale__column:nth-child(6){
+        display: none;
+    }
+    .car-for-sale .car-for-sale__container{
+        justify-content: space-around;
+    }
+}
 @media (max-width: 321px){
     .car-for-sale .car-for-sale__column:nth-child(3),.car-for-sale .car-for-sale__column:nth-child(4),.car-for-sale .car-for-sale__column:nth-child(5),.car-for-sale .car-for-sale__column:nth-child(6){
         display: none;
@@ -43,5 +57,11 @@
     .car-for-sale .container{
         padding: 0 5px;
     }
-    
+    .car-for-sale .car-for-sale__container{
+        padding: 20px 0;
+    }
+    .car-for-sale .car-for-sale__column a{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
 }

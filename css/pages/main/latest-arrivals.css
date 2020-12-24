@@ -1,26 +1,33 @@
-.latest-arrivals__container {
+.latest-arrivals__container, .normal-cotainer{
     display: flex;
     justify-content: space-between;
     align-content: center;
     flex-wrap: wrap;
 }
+
+.wrap-container{
+    display: none;
+}
+
 .latest-arrivals__item {
     border-radius: 5px;
     box-shadow: 0px 3px 7px 0 rgba(0, 0, 0, 0.1), 0px -3px 7px 0 rgba(0, 0, 0, 0.1);
+    width: 270px;
+    margin-right: 10px;
 }
 
-.latest-arrivals__item:hover{
-     box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.5), 0px -3px 15px 0 rgba(0, 0, 0, 0.5);
+.latest-arrivals__item:hover {
+    box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.5), 0px -3px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
-.latest-arrivals__item:hover h3{
+.latest-arrivals__item:hover h3 {
     color: #cc0000;
-   text-decoration: underline;
+    text-decoration: underline;
 }
 
-.latest-arrivals__item:hover a{
-    background:  #8f0000;
-    text-decoration: none;    
+.latest-arrivals__item:hover a {
+    background: #8f0000;
+    text-decoration: none;
 }
 
 .latest-arrivals__item h3 {
@@ -31,6 +38,7 @@
     text-align: center;
     margin-top: 18px;
 }
+
 .year {
     color: #333333;
     font-family: Fira Sans;
@@ -53,7 +61,7 @@
     text-align: center;
 }
 
-.power p:last-child{
+.power p:last-child {
     margin-top: 12px;
 }
 
@@ -67,8 +75,10 @@
     font-family: Fira Sans;
     font-size: 20px;
     font-weight: 600;
-    color: #cc0000;;
+    color: #cc0000;
+    ;
 }
+
 .price-container a {
     border-radius: 5px;
     background-color: #cc0000;
@@ -98,19 +108,50 @@
     color: #cc0000;
 }
 
-.latest-arrivals .large-button{
+.latest-arrivals .large-button {
     margin-bottom: 46px;
 }
 
-.large-button:hover{
+.large-button:hover {
     text-decoration: none;
     color: #fff;
     background: #cc0000;
 }
 
+@media (max-width:1024px) {
+    .latest-arrivals__item {
+        margin-top: 20px;
+    }
+}
 
+@media (max-width:769px) {
+    .latest-arrivals__container {
+        justify-content: space-around;
+    }
 
+    .latest-arrivals__item {
+        width: 300px;
+    }
 
+    .latest-arrivals__item img {
+        width: 100%;
+    }
+}
 
-
-
+@media (max-width:425px) {
+    .latest-arrivals__container {
+        overflow: hidden;
+        width: 300px;
+        margin: 0 auto;
+    }
+    
+    .wrap-container {
+        width: 15000px;
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+    }
+    .normal-cotainer{
+        display: none;
+    }
+}
