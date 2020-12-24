@@ -1,0 +1,116 @@
+.latest-arrivals__container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.latest-arrivals__item {
+    border-radius: 5px;
+    box-shadow: 0px 3px 7px 0 rgba(0, 0, 0, 0.1), 0px -3px 7px 0 rgba(0, 0, 0, 0.1);
+}
+
+.latest-arrivals__item:hover{
+     box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.5), 0px -3px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.latest-arrivals__item:hover h3{
+    color: #cc0000;
+   text-decoration: underline;
+}
+
+.latest-arrivals__item:hover a{
+    background:  #8f0000;
+    text-decoration: none;    
+}
+
+.latest-arrivals__item h3 {
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    margin-top: 18px;
+}
+.year {
+    color: #333333;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 14px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+}
+
+.power {
+    background: #F4F4F4;
+    padding: 20px 0 20px;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    text-align: center;
+}
+
+.power p:last-child{
+    margin-top: 12px;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.price-container .price {
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    color: #cc0000;;
+}
+.price-container a {
+    border-radius: 5px;
+    background-color: #cc0000;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    height: 32px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.large-button {
+    width: 100%;
+    margin-top: 30px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: solid 2px #cc0000;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    color: #cc0000;
+}
+
+.latest-arrivals .large-button{
+    margin-bottom: 46px;
+}
+
+.large-button:hover{
+    text-decoration: none;
+    color: #fff;
+    background: #cc0000;
+}
+
+
+
+
+
+
+
