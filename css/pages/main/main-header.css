@@ -1,0 +1,108 @@
+header .head-line {
+    background: #F5F5F5;
+    width: 100%;
+    border-top: 2px solid #C9CDCE;
+    border-bottom: 2px solid #C9CDCE;
+    padding: 13px 0 10px;
+}
+
+header .head-line .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .contacts {
+    display: flex;
+    align-items: center;
+}
+
+.sign-in,
+span {
+    color: #283747;
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.red-link,
+header .head-line .container p {
+    color: #CD0000;
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    font-weight: normal;
+}
+
+header p {
+    margin: 0 12px;
+}
+
+header .navbar {
+    border-bottom: 2px solid #C9CDCE;
+}
+
+header .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+header .logo img {
+    height: 50px;
+    width: 189px;
+}
+
+header .navbar__container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header .navbar__container .navbar__item,
+.sell-my-car {
+    font-family: 'Fira Sans';
+    font-size: 16px;
+    font-weight: 500;
+    height: 100%;
+    margin-right: 45px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+header .navbar__container .navbar__item:last-child,
+.sell-my-car:last-child {
+    margin-right: 0;
+}
+
+header .navbar__container .navbar__item a:hover {
+    text-decoration: none;
+    color: #cc0000;
+    border-bottom: 4px solid #cc0000;
+    margin-bottom: -4px;
+}
+
+header .navbar__container .navbar__item a {
+    color: #283747;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 3px;
+}
+
+.sell-my-car a {
+    color: #fff;
+    background: #cc0000;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 23px;
+}
+
+.sell-my-car a:hover{
+    background: #900000;  
+}
+

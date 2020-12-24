@@ -1,0 +1,36 @@
+.car-for-sale .title {
+    margin-top: 28px;
+}
+
+.car-for-sale .car-for-sale__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 21px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 7px 0 rgba(0, 0, 0, 0.1), 0px -3px 7px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 48px;
+}
+.car-for-sale .car-for-sale__column {
+    display: flex;
+    flex-direction: column;
+}
+.car-for-sale .car-for-sale__column a {
+    display: block;
+    line-height: 2.43;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    border-radius: 5px;
+    padding-left: 9px;
+    padding-right: 22px;
+}
+
+.car-for-sale .car-for-sale__column a:hover{
+    background-color: #e8e8e8;
+    text-decoration: none;
+}
+
+.car-for-sale span {
+    color: #cc0000;
+}

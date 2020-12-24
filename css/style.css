@@ -1,0 +1,55 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;400;500;600;700&display=swap');
+@import url(../css/pages/main/main-header.css);
+@import url(../css/pages/main/car-for-sales.css);
+
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+body{
+    background: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Fira Sans;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.title h2{
+    color: #333333;
+    font-size: 40px;
+    font-weight: normal;
+}
+  
+.title a{
+    display: flex;
+    align-items: center;
+    padding: 0 0 3px 0;
+    box-sizing: border-box;
+    color: #cc0000;
+}
+
+.title a img{
+     margin-left: 10px;
+}
+
+.title a:hover{
+    border-bottom: 1px solid #CD0000;
+    text-decoration: none;
+    padding: 0 0 3px 0;
+}
