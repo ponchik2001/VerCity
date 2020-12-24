@@ -29,15 +29,17 @@ select{
     -moz-appearance: none;
     appearance: none; 
     width: 160px;
-
-}
-
-select:first-child{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none; 
-    width: 160px;
-   
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    height: 50px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: solid 1px #333333;
+    background: url(../../../img/select-bg.png) no-repeat;
+    background-position: center right 15px;
 }
 
 .vehicle-search .filtr-item {
@@ -56,6 +58,13 @@ select:first-child{
 .vehicle-search option {
 }
 .vehicle-search button {
-    display: inline-block;
     width: 340px;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background: #CD0000;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
 }
