@@ -5,6 +5,9 @@
 @import url(../css/pages/main/vehicle-search.css);
 @import url(../css/pages/main/latest-arrivals.css);
 @import url(../css/pages/main/footer.css);
+@import url(../css/pages/all_ads/all_ads.css);
+@import url(../css/pages/all_ads/sort-form.css);
+
 
 
 .container {

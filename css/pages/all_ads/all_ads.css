@@ -1,0 +1,15 @@
+.all-ads-title{
+    margin-top: 30px;
+}
+
+header .navbar__container .navbar__item  a{
+
+}
+
+#mark-all-ads{
+    text-decoration: none;
+    color: #cc0000;
+    border-bottom: 4px solid #cc0000;
+    margin-bottom: -4px;
+    height: 94%;
+}

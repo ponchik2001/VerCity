@@ -1,0 +1,217 @@
+/*Sort Form*/
+.sort-by {}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sort-by .sort-by__container {
+    border-top: 1px solid #C8CDCE;
+}
+
+.sort-by .search-counter {
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: normal;
+    color: #333333;
+    line-height: 1.5;
+    text-align: center;
+    background: #fff;
+    max-width: 386px;
+    margin: -15px auto 25px;
+}
+
+.sort-by span {
+    font-weight: 600;
+    color: #cc0000;
+    font-size: 22px;
+}
+
+.sort-by .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sort-button button {
+    width: 200px;
+    height: 40px;
+    background: #cc0000;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+.sort-button button:hover {
+    background: #8f0000;
+    ;
+}
+
+.sort-by .container .sort-form__item {}
+
+.sort-by .sort-form__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sort-by .sort-form__container .sort-form__item {
+    margin-right: 49px;
+}
+
+.sort-by .select-label {
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.sort-by .select-label option {}
+
+.sort-by .sort-form__select {
+    height: 40px;
+
+}
+
+.sort-by .sort-form__select:last-child {}
+
+.sort-by .sort-form__select option {}
+
+.sort-by button {}
+
+/*Sort Form*/
+
+/*Pages*/
+.sort-body {
+    margin-top: 62px;
+    width: 100%;
+}
+
+.sort-body .sort-body__item {
+    border-radius: 5px;
+    box-shadow: 0px 3px 7px 0 rgba(0, 0, 0, 0.1), 0px -3px 7px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.sort-body .sort-body__item:hover {
+    box-shadow: 0px 3px 7px 0 rgba(0, 0, 0, 0.5), 0px -3px 7px 0 rgba(0, 0, 0, 0.5);
+    transition: .3s ease-out;
+    transition-delay: 0.4s;
+}
+
+.sort-body .sort-body__item:hover .name-car{
+    color: #cc0000;
+    text-decoration: underline;
+}
+
+.sort-body .sort-body__item img {}
+
+.sort-body .description-cotainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sort-body .name-car {
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    padding: 18px 20px 14px;
+}
+
+.sort-body .year-km-city {
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #333333;
+    padding: 0 20px 20px;
+}
+
+.sort-body .tech-description {
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    background: #f4f4f4;
+    padding: 18px 20px;
+    line-height: normal;
+}
+
+.sort-body .description-underline-cotainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 18px;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: normal;
+    color: #888888;
+    padding: 19px 20px 17px;
+}
+
+.sort-body .date {}
+
+.sort-body .views {
+    display: flex;
+    align-items: center;
+}
+
+.sort-body .views img {
+    width: 15px;
+    height: 9px;
+    margin-right: 10px;
+}
+
+.sort-body .how-mach {}
+
+.price {
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    color: #cc0000;
+}
+
+/*Pages*/
+
+
+@media (max-width:768px) {
+    .sort-body .sort-body__item {
+       flex-direction: column;
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .price{
+        position: static;
+        margin-top: 30px;
+        margin-bottom: 18px;
+    }
+}
+
+@media (max-width:1202px) {
+    .sort-by .sort-form__container .sort-form__item {
+        margin-right: calc(9px + (49 - 9) * ((100vw - 320px)/(1202 - 320)));
+
+    }
+
+    .sort-by .sort-form__container {
+        flex-direction: column;
+    }
+
+}
