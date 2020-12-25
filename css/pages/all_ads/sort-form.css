@@ -89,6 +89,8 @@
 .sort-body {
     margin-top: 62px;
     width: 100%;
+    padding: 0 5px;
+    box-sizing: border-box;
 }
 
 .sort-body .sort-body__item {
@@ -185,10 +187,24 @@
 }
 
 .counter-pages__container {
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
+
+.counter-pages__container a{
+    color: #6c757d;
+}
+
+.counter-pages__container a:hover{
+     text-decoration: none;
+}
+
+.counter-pages__container .counter-pages__item:hover a{
+    color: #cc0000;
+}
+
 .counter-pages__container .counter-pages__item {
     border: solid 2px #e4e9f0;
     border-radius: 4px;
@@ -199,11 +215,15 @@
     font-size: 14px;
     font-weight: 500;
     text-align: center;
-    color: #6c757d;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+.counter-pages__container .counter-pages__item:hover{
+    border: solid 2px #cc0000;
+    color: #cc0000;
 }
 
 .counter-pages-mark{
@@ -223,6 +243,11 @@
     cursor: pointer;
 }
 
+.counter-pages-mark a{
+    color: #cc0000;
+}
+
+
 .counter-pages__container .counter-pages__item:last-child{
     margin-right: 0;
 }
@@ -232,6 +257,9 @@
 
 /*Pages*/
 
+#sort-form__item-3{
+    margin-right: 20px;   
+}
 
 @media (max-width:768px) {
     .sort-body .sort-body__item {
@@ -261,12 +289,20 @@
 
 @media (max-width:1202px) {
     .sort-by .sort-form__container .sort-form__item {
-        margin-right: calc(9px + (49 - 9) * ((100vw - 320px)/(1202 - 320)));
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
 
     }
-
+    .sort-by .select-label{
+        width: 20%;
+        margin-right: 0px;
+    }
     .sort-by .sort-form__container {
         flex-direction: column;
+        width: 100%;
     }
-
+    #sort-form__item-3{
+        margin-right: 0px
+    }
 }
