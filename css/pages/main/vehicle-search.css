@@ -56,51 +56,32 @@ select {
     height: 50px;
 }
 
-@media (max-width: 321px) {
-    .vehicle-search button {
-        width: 300px;
-    }
 
-    /*
+@media (max-width:1200px) {
 
-    .mob-145 {
-        width: 145px;
+    .search-center {
+        margin: 0 auto;
     }
-
-    .mob-110 {
-        width: 110px;
-    }
-
-    .mob-60 {
-        width: 60px;
-    }
-*/
 
     .vehicle-search .vehicle-search__container {
-        justify-content: space-around;
+        justify-content: space-between;
+
     }
 
-    select {
+    select,
+    .vehicle-search .vehicle-search__container .filtr-item .small {
         width: 100%;
     }
 
     .vehicle-search .filtr-item {
-        margin: 0 5px 5px;
-
-    }
-
-    select {
-        width: 145px;
-    }
-
-    .vehicle-search .vehicle-search__container .filtr-item .small {
-        width: 145px;
-    }
-
-    .vehicle-search .filtr-item {
         margin: 0 0 10px;
+        width: 49%;
     }
 
+    .vehicle-search button {
+        width: 100%;
+        margin: 0 auto;
+    }
 
     .vehicle-search .filtr-item:first-child,
     .vehicle-search .filtr-item:nth-child(8) {
@@ -111,36 +92,11 @@ select {
     .vehicle-search .filtr-item:nth-child(13) {
         margin: 0 0 10px;
     }
+}
 
-
-    /*
-    .vehicle-search .filtr-item:nth-child(2),
-    .vehicle-search .filtr-item:nth-child(4),
-    .vehicle-search .filtr-item:nth-child(7),
-    .vehicle-search .filtr-item:nth-child(10)
-    .vehicle-search .filtr-item:nth-child(11){
-        margin-right: 0px;
+@media (max-width:320px){
+     .vehicle-search .filtr-item {
+        margin: 0 0 10px;
+        width: 100%;
     }
-    .vehicle-search .filtr-item:nth-child(3),
-    .vehicle-search .filtr-item:nth-child(5){
-        margin-left: 0px;
-        margin-top: 5px;
-    }
-    .vehicle-search .filtr-item:nth-child(4),
-    .vehicle-search .filtr-item:nth-child(6),
-    .vehicle-search .filtr-item:nth-child(7){
-        margin-top: 5px;
-    }
-    
-    
-    
-    .vehicle-search .filtr-item:first-child,
-    .vehicle-search .filtr-item:nth-child(8) {
-        margin: 0 5px 5px 0px;
-    }
-
-    .vehicle-search .filtr-item:nth-child(13) {
-        margin: 0 0 0 5px;
-    }
-*/
 }
