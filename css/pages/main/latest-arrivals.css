@@ -2,7 +2,7 @@
 
 .latest-arrivals__container, .normal-cotainer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
     flex-wrap: wrap;
 }
@@ -151,5 +151,8 @@
     }
     .normal-cotainer{
         display: none;
+    }
+    .latest-arrivals__item{
+        margin: 0 auto;
     }
 }
