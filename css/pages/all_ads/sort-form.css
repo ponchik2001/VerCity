@@ -1,12 +1,6 @@
 /*Sort Form*/
 .sort-by {}
 
-.row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .sort-by .sort-by__container {
     border-top: 1px solid #C8CDCE;
 }
@@ -64,6 +58,8 @@
 
 .sort-by .sort-form__container .sort-form__item {
     margin-right: 49px;
+    display: flex;
+    align-items: center;
 }
 
 .sort-by .select-label {
@@ -71,6 +67,7 @@
     font-size: 14px;
     font-weight: 500;
     color: #333333;
+    margin-right: 49px;
 }
 
 .sort-by .select-label option {}
@@ -187,6 +184,52 @@
     color: #cc0000;
 }
 
+.counter-pages__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.counter-pages__container .counter-pages__item {
+    border: solid 2px #e4e9f0;
+    border-radius: 4px;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #6c757d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.counter-pages-mark{
+    border: solid 2px #cc0000;
+    border-radius: 4px;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #cc0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.counter-pages__container .counter-pages__item:last-child{
+    margin-right: 0;
+}
+
+.counter-pages__container img {
+}
+
 /*Pages*/
 
 
@@ -194,13 +237,25 @@
     .sort-body .sort-body__item {
        flex-direction: column;
         width: 300px;
-        margin: 0 auto;
+        margin: 21px auto 0;
         text-align: center;
     }
     .price{
         position: static;
         margin-top: 30px;
         margin-bottom: 18px;
+    }
+    .counter-pages__container .counter-pages__item,.counter-pages-mark{
+        height: 35px;
+        width: 35px;
+    }
+    
+    .counter-pages__container .counter-pages__item:nth-child(11),
+    .counter-pages__container .counter-pages__item:nth-child(10),
+    .counter-pages__container .counter-pages__item:nth-child(9),
+    .counter-pages__container .counter-pages__item:nth-child(8),
+    .counter-pages__container .counter-pages__item:nth-child(7){
+        display: none;
     }
 }
 
