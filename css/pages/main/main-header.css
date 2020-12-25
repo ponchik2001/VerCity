@@ -122,9 +122,15 @@ header .navbar__container .navbar__item a {
         background: #fff;
         margin-right: 0px;
         text-align: center;
-        height: 40px;
+        height: auto;
         width: 100%;
         display: none;
+    }
+    
+    header .navbar__container .navbar__item a:hover{
+        margin-bottom: 0;
+        padding-bottom: 16px;
+        height: 100%;
     }
      .sell-my-car{
         display: none;
@@ -135,8 +141,11 @@ header .navbar__container .navbar__item a {
         height: 40px;
     }
     header .navbar__container .navbar__item a{
-        margin: 0 auto 0 0;
-        padding-right: 5px;
+        margin: 0;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
     }
 
     header .navbar__container {
@@ -147,8 +156,10 @@ header .navbar__container .navbar__item a {
     }
    
     .sell-my-car a{
-        margin: 0 auto 0 0;
-        padding-right: 5px;
+       margin: 0 0 0;
+       padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 

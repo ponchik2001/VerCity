@@ -115,6 +115,11 @@
     color: #cc0000;
 }
 
+.large-button:hover{
+    background-color: #CD0000;
+    color: #fff;
+}
+
 .latest-arrivals .large-button {
     margin-bottom: 46px;
 }
