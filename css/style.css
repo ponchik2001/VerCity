@@ -106,3 +106,9 @@ a:hover {
         display: flex;
     }
 }
+
+@media (max-width: 1275px) {
+      .container {
+        padding: 0px 5px;
+    }
+}

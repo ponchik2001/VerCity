@@ -50,10 +50,21 @@
         justify-content: space-around;
     }
 }
-@media (max-width: 321px){
+
+@media (max-width:707px) {
+    .car-for-sale .car-for-sale__column:nth-child(4){
+        display: none;
+    }
+}
+
+@media (max-width:549px) {
     .car-for-sale .car-for-sale__column:nth-child(3),.car-for-sale .car-for-sale__column:nth-child(4),.car-for-sale .car-for-sale__column:nth-child(5),.car-for-sale .car-for-sale__column:nth-child(6){
         display: none;
     }
+}
+
+@media (max-width: 321px){
+    
     .car-for-sale .container{
         padding: 0 5px;
     }

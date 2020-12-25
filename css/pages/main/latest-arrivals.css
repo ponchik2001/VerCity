@@ -2,13 +2,16 @@
 
 .latest-arrivals__container, .normal-cotainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
     flex-wrap: wrap;
 }
 
 .wrap-container{
     display: none;
+    width: 15000px;
+    justify-content: flex-start;
+    align-content: center;
 }
 
 .latest-arrivals__item {
@@ -20,6 +23,8 @@
 
 .latest-arrivals__item:hover {
     box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.5), 0px -3px 15px 0 rgba(0, 0, 0, 0.5);
+    transition: .3s ease-out;
+    transition-delay: 0.4s;
 }
 
 .latest-arrivals__item:hover h3 {
@@ -114,12 +119,6 @@
     margin-bottom: 46px;
 }
 
-.large-button:hover {
-    text-decoration: none;
-    color: #fff;
-    background: #cc0000;
-}
-
 @media (max-width:1024px) {
     .latest-arrivals__item {
         margin-top: 20px;
@@ -148,10 +147,7 @@
     }
     
     .wrap-container {
-        width: 15000px;
         display: flex;
-        justify-content: flex-start;
-        align-content: center;
     }
     .normal-cotainer{
         display: none;
