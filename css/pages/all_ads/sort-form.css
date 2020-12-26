@@ -113,6 +113,10 @@
     text-decoration: underline;
 }
 
+.sort-body .sort-body__item:hover a{
+    color: #cc0000;
+}
+
 .sort-body .sort-body__item img {}
 
 .sort-body .description-cotainer {
@@ -128,6 +132,10 @@
     font-weight: 600;
     color: #000000;
     padding: 18px 20px 14px;
+}
+
+.sort-body .name-car a{
+    color: #000000;
 }
 
 .sort-body .year-km-city {
