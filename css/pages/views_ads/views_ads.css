@@ -25,6 +25,7 @@
 
 .product-card .first-row-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .product-card .slider-container {
@@ -51,7 +52,7 @@
     width: 420px;
     padding: 25px 0 0 0;
     box-sizing: border-box;
-    height: 600px;
+    /*    height: 600px;*/
 }
 
 .product-card .price {
@@ -101,6 +102,7 @@
 .second-row-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap-reverse;
     margin-top: 30px;
     margin-bottom: 36px;
 }
@@ -204,9 +206,7 @@
     margin-top: 28px;
 }
 
-.second-row-container .date-of-posting {
-    
-}
+.second-row-container .date-of-posting {}
 
 .second-row-container .date-of-posting span {
     font-weight: normal;
@@ -233,4 +233,101 @@
     color: #333333;
 }
 
+.vehicle-description-container {}
+
+.vehicle-description-container .second-row-container-title {
+    margin-bottom: 16px;
+}
+
+.vehicle-description-container .vehicle-description__text {
+    padding-top: 16px;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2.14;
+    color: #333333;
+    border-top: 1px solid #C9CDCE;
+    max-width: 653px;
+}
+
 /*Second Row*/
+
+@media (max-width:1200px) {
+    .second-row-container .features-body__column:last-child {
+        margin-right: 0px;
+        display: none;
+    }
+
+    .second-row-container .features-body__column {
+        margin-right: 0px;
+    }
+
+    .first-row-container {
+        flex-direction: column;
+        align-content: center;
+        padding: 0 5px;
+    }
+
+    .second-row-container {
+        flex-direction: column-reverse;
+        align-content: center;
+        padding: 0 5px;
+        margin-top: 20px;
+    }
+
+    .product-card .slider-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .product-card .info-with-price-container {
+        width: 100%;
+        margin: 20px auto 0px;
+    }
+
+    .product-card .slider-container img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .product-card .switch-container img {
+        width: 87px;
+        height: 73px;
+    }
+
+    .product-card .title h2,
+    .product-card .title h2 span {
+        font-size: 20px;
+    }
+
+    .product-card .text-container {
+        font-size: 14px;
+        padding: 0px 10px;
+    }
+
+    .second-row-container .contacts-seller {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .second-row-container .numbers-container {
+        padding: 0 7px;
+    }
+
+    .second-row-container .when-to-call {
+        font-size: 12px;
+    }
+
+    .second-row-container .advice-container {
+        font-size: 14px;
+        padding: 28px 23px;
+        margin-top: 20px;
+    }
+
+    .second-row-container .features-container {
+        padding: 30px;
+        margin-top: 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
