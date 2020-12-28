@@ -1,0 +1,195 @@
+.detailed-search .container {
+    margin-bottom: 46px;
+}
+
+.detailed-search .vehicle-search__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.detailed-search .vehicle-search__container .filtr-item .small {
+    width: 90px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 160px;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    height: 50px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: solid 1px #333333;
+    background: url(../../../img/select-bg.png) no-repeat;
+    background-position: center right 15px;
+}
+
+.detailed-search .filtr-item {
+    margin: 0 10px 10px;
+}
+
+
+.detailed-search .filtr-item:first-child,
+.detailed-search .filtr-item:nth-child(8),
+.detailed-search .filtr-item:nth-child(15),
+.detailed-search .filtr-item:nth-child(22) {
+    margin: 0 10px 10px 0px;
+}
+
+.detailed-search .filtr-item:nth-child(7),
+.detailed-search .filtr-item:nth-child(14),
+.detailed-search .filtr-item:nth-child(21) {
+    margin: 0 0 0 10px;
+}
+
+.detailed-search button {
+    width: 340px;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background: #CD0000;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.detailed-search button:hover {
+    background: #8f0000;
+}
+
+.detailed-search .title {
+    margin-top: 30px;
+}
+
+.detailed-search .features-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.detailed-search .features__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.detailed-search .features__item {
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 2.5;
+    color: #333333;
+}
+
+.detailed-search label {
+    display: flex;
+    align-items: center;
+}
+
+.detailed-search label select {
+    padding-right: 10px;
+}
+
+.detailed-search input{
+    margin-right: 10px;
+    height: 25px;
+}
+
+/*Стилизация chekbox*/
+
+.big_chk {
+    cursor: pointer;
+}
+ 
+.big_chk input {
+    padding: 0px;
+    margin-right:-16px;
+    visibility: hidden;
+}
+ 
+.big_chk span{
+    margin: 10px;
+}
+
+.big_chk input+span {
+    display: inline-block;
+    width: 26px;
+    height: 32px;
+    background: url('../../../img/checkbox.png') left top no-repeat;
+}
+ 
+.big_chk input:checked+span {
+    background-position: right top;
+}
+
+.features__item-select{
+    padding-left: 45px;
+}
+
+.features__item-select select{
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+@media (max-width:1200px) {
+
+
+
+    .detailed-search .vehicle-search__container {
+        justify-content: space-between;
+
+    }
+
+    select,
+    .detailed-search .vehicle-search__container .filtr-item .small {
+        width: 100%;
+    }
+
+    .detailed-search .filtr-item {
+        margin: 0 0 10px;
+        width: 49%;
+    }
+
+    .detailed-search button {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .detailed-search .filtr-item:first-child,
+    .detailed-search .filtr-item:nth-child(8),
+    .detailed-search .filtr-item:nth-child(15),
+    .detailed-search .filtr-item:nth-child(22) {
+        margin: 0 0 10px;
+
+    }
+
+    .detailed-search .filtr-item:nth-child(7),
+    .detailed-search .filtr-item:nth-child(14),
+    .detailed-search .filtr-item:nth-child(21) {
+        margin: 0 0 10px;
+    }
+
+    .vehicle-search .filtr-item:last-child {
+        width: 100%;
+    }
+
+    .search-center {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+@media (max-width:320px) {
+    .detailed-search .filtr-item {
+        margin: 0 0 10px;
+        width: 100%;
+    }
+}
