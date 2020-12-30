@@ -57,6 +57,10 @@
 
 /*Стилизация Choose File*/
 
+#city-visible{
+    display: none;
+}
+
 .private-office .container .small-subtitle h2 {
     font-family: Fira Sans;
     font-size: 30px;
@@ -134,6 +138,10 @@
     color: #333333;
 }
 
+#invisible_time{
+    display: none;
+}
+
 .private-office .add-information__container {
     display: flex;
     justify-content: space-between;
@@ -144,10 +152,12 @@
 
 .private-office .add-information__column {
     margin-right: 30px;
+    
 }
 
 .private-office .add-information__column:last-child {
     margin-right: 0px;
+    
 }
 
 .private-office .name-car {
@@ -201,6 +211,8 @@
     margin: 0 auto;
     height: 200px;
     margin-top: 30px;
+    border-radius: 5px;
+    border: solid 1px #c8cccd;
 }
 
 .private-office .memo-container {
@@ -291,13 +303,24 @@
 }
 
 
-@media (max-width:425px){
+@media (max-width:575px){
+    .private-office .add-information__column{
+        width: 100%;
+        margin-right: 0px;
+    }
+    .private-office .add-information__item .add-informaion-big-input{
+        width: 100%;
+    }
+}
 
-    .private-office button{
+@media (max-width:425px) {
+
+    .private-office button {
         width: 300px;
         margin: 0 auto;
     }
-/*
+
+    /*
 
     .private-office .select-details__item input,.city-select{
         width: 216px;
@@ -314,20 +337,36 @@
     }
 */
     .private-office .select-details__item select:nth-child(3),
-    .private-office .select-details__item select:last-child{
+    .private-office .select-details__item select:last-child {
         margin-right: 0px
     }
-    
-    .private-office .select-details__item input{
+
+    .private-office .select-details__item input {
         margin-right: 0px;
     }
-    .private-office .select-details__column{
+
+    .private-office .select-details__column {
         margin-right: 0px;
         width: 100%
     }
-    
-    .private-office .add-information__column{
+
+    .private-office .add-information__column {
         margin-right: 0px;
         width: 100%;
     }
 }
+
+@media (max-width:882px){
+    #invisible_time, #city-visible{
+        display: flex;
+    }
+    #last-time, #city-none{
+        display: none;
+    }
+    .private-office .select-details__container .select-details__column:last-child{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+}
+
