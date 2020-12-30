@@ -68,19 +68,19 @@ select {
     margin-top: 30px;
 }
 
-.detailed-search .features-container {
+.features-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 50px;
 }
 
-.detailed-search .features__column {
+.features__column {
     display: flex;
     flex-direction: column;
 }
 
-.detailed-search .features__item {
+.features__item {
     font-family: Fira Sans;
     font-size: 16px;
     font-weight: normal;
@@ -88,16 +88,16 @@ select {
     color: #333333;
 }
 
-.detailed-search label {
+ label {
     display: flex;
     align-items: center;
 }
 
-.detailed-search label select {
+ label select {
     padding-right: 10px;
 }
 
-.detailed-search input{
+input{
     margin-right: 10px;
     height: 25px;
 }

@@ -1,0 +1,333 @@
+/*Стилизация Choose File*/
+.file-upload input[type="file"] {
+    display: none;
+    /* ñêðûâàåì input file */
+}
+
+.file-form-wrap {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+#preview1 {
+    font-family: Fira Sans;
+    font-size: 18px;
+    color: #333333;
+    margin-left: 25px;
+}
+
+.file-upload {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    border: solid 1px #c8cccd;
+    color: #fff;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+/* Ðàñòÿãèâàåì label íà âñþ îáëàñòü áëîêà .file-upload */
+.file-upload label {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+/* ñòèëü òåêñòà íà êíîïêå*/
+.file-upload span {
+    font-family: Fira Sans;
+    font-size: 18px;
+    color: #333333;
+}
+
+.preview-img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 5px;
+}
+
+/*Стилизация Choose File*/
+
+.private-office .container .small-subtitle h2 {
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.private-office .container .adding-photos {
+    margin-bottom: 50px;
+}
+
+.private-office .container .adding-photos .small-subtitle {
+    font-family: Fira Sans;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 25px;
+}
+
+.private-office .container .adding-photos h2 {
+    margin-bottom: 7px;
+}
+
+.private-office .title {
+    margin-top: 27px;
+}
+
+.private-office .error-block-container {
+    border-radius: 5px;
+    border: solid 1px #cc0000;
+    background-color: #ff9d9d;
+    padding: 18px 10px;
+    font-family: Fira Sans;
+    line-height: normal;
+    font-size: 14px;
+    color: #333333;
+}
+
+.private-office .error-block-container h3 {
+    font-weight: 600;
+}
+
+.private-office .settings-line {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 44px;
+}
+
+.private-office .settings-item {
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.private-office a {
+    color: #333333;
+}
+
+.private-office a:hover {
+    color: #cc0000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.private-office a span {}
+
+.private-office .add-information {}
+
+.private-office .bold-subtitle {
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.private-office .add-information__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.private-office .add-information__column {
+    margin-right: 30px;
+}
+
+.private-office .add-information__column:last-child {
+    margin-right: 0px;
+}
+
+.private-office .name-car {
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.7;
+    color: #333333;
+    margin-bottom: 38px;
+}
+
+.private-office .add-information__item .item-name {
+    margin-right: 20px;
+    font-family: Fira Sans;
+    font-size: 14px;
+    color: #333333;
+}
+
+.private-office .add-information__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.private-office .add-information__item input {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: solid 1px #333333;
+    box-sizing: border-box;
+    margin-right: 0px;
+    padding: 20px 15px;
+}
+
+.private-office .add-information__item .add-informaion-big-input {
+    width: 160px;
+    height: 50px;
+    box-sizing: border-box;
+    margin-right: 0px;
+}
+
+.add-informaion-small-select {
+    width: 80px;
+    margin-left: 10px;
+}
+
+.private-office .memo-container textarea {
+    resize: none;
+    width: 98%;
+    margin: 0 auto;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.private-office .memo-container {
+    margin-bottom: 35px;
+}
+
+.private-office .memo-container .small-subtitle:first {
+    margin-top: 0px;
+}
+
+.private-office .memo-container .small-subtitle {
+    margin-top: 34px;
+}
+
+
+.private-office .select-details {}
+
+.private-office .select-details .small-subtitle {}
+
+.private-office .select-details h2 {}
+
+.private-office .select-details__container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.private-office .select-details__container .select-details__column {
+    margin-right: 91px;
+}
+
+.private-office .select-details__container .select-details__column:last-child {
+    margin-right: 0px;
+}
+
+.private-office .select-details__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Fira Sans;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 20px;
+
+}
+
+.time-select {
+    width: 100px;
+    margin-right: 25px;
+}
+
+.city-select {
+    width: 300px;
+    margin-left: 40px;
+}
+
+.private-office .select-details__item input {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: solid 1px #333333;
+    box-sizing: border-box;
+    padding: 20px 15px;
+}
+
+.private-office .select-details__item select {}
+
+.private-office .select-details__item option {}
+
+.private-office .detainl-name {
+    margin-right: 25px;
+}
+
+.private-office .detainl-name option {}
+
+.private-office button {
+    margin-top: 40px;
+    width: 340px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #cc0000;
+    border: none;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+@media (max-width:425px){
+
+    .private-office button{
+        width: 300px;
+        margin: 0 auto;
+    }
+/*
+
+    .private-office .select-details__item input,.city-select{
+        width: 216px;
+        margin-left: 10px;
+    }
+    .private-office .detainl-name{
+       
+    }
+    .private-office .select-details__item select{
+        margin-right: 0px;
+    }
+    .private-office .select-details__item .detainl-name:first-child{
+        margin-right: 40px;
+    }
+*/
+    .private-office .select-details__item select:nth-child(3),
+    .private-office .select-details__item select:last-child{
+        margin-right: 0px
+    }
+    
+    .private-office .select-details__item input{
+        margin-right: 0px;
+    }
+    .private-office .select-details__column{
+        margin-right: 0px;
+        width: 100%
+    }
+    
+    .private-office .add-information__column{
+        margin-right: 0px;
+        width: 100%;
+    }
+}
